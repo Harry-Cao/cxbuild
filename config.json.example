@@ -1,0 +1,19 @@
+{
+  "input_paths": [
+    [
+      0,
+      "/PATH/TO/PROJECTS/DIRECTORY/"
+    ],
+    [
+      1,
+      "/PATH/TO/SPECIFIC/PROJECT/"
+    ]
+  ],
+  "cache_paths": [
+    "~/Library/Developer/Xcode",
+    "~/Library/Caches/Cocoapods",
+    "~/Library/Caches/org.carthage.CarthageKit"
+  ],
+  "proxy": "",
+  "artifactory_key": "YOUR_ARTIFACTORY_KEY"
+}
