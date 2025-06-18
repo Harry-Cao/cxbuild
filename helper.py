@@ -47,3 +47,9 @@ def setupBuilder():
   builder.artifactory_key = config['artifactory_key']
   builder.project_list = getProjectList()
   return builder
+
+def str_to_int(s):
+    try:
+        return int(s)
+    except ValueError:
+        return None
