@@ -10,7 +10,7 @@ parser = helper.setupParser()
 project_list = [os.path.basename(value) for value in builder.project_list]
 
 def select_project(selection):
-  index = int(selection)
+  index = helper.str_to_int(selection)
   if index is not None:
     selection = index
   elif isinstance(selection, str):
